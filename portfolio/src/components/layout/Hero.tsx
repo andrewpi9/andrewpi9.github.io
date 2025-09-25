@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
               Hello, I'm <span className="hero-name">Andrew Pi</span>
             </h1>
             <p className="hero-subtitle">
-              Aspiring Full Stack Developer
+              CS and Econ at UNC
             </p>
             <p className="hero-description">
               I'm passionate about creating digital experiences that solve real-world problems.
