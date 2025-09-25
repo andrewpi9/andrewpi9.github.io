@@ -39,13 +39,18 @@ jobs:
           cd portfolio
           npm run build
 
+      - name: Create portfolio structure
+        run: |
+          mkdir -p _site/portfolio
+          cp -r portfolio/dist/* _site/portfolio/
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: portfolio/dist
+          path: _site
 
   deploy:
     environment:
