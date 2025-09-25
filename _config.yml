@@ -1,0 +1,11 @@
+# Jekyll configuration
+exclude:
+  - node_modules
+  - portfolio/node_modules
+  - portfolio/dist
+  - portfolio/src
+  - portfolio/public
+  - portfolio/*.json
+  - portfolio/*.js
+  - portfolio/*.ts
+  - portfolio/README.md
