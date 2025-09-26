@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
           <Button
             variant="primary"
             size="lg"
-            href="https://github.com"
+            href="https://github.com/andrewpi9"
             target="_blank"
           >
             View All Projects on GitHub

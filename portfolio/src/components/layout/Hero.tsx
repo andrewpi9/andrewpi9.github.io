@@ -40,9 +40,11 @@ const Hero: React.FC = () => {
 
           <div className="hero-visual">
             <div className="hero-avatar">
-              <div className="avatar-placeholder">
-                <span>AP</span>
-              </div>
+              <img
+                src="/portfolio/images/headshot.JPG"
+                alt="Andrew Pi"
+                className="avatar-image"
+              />
             </div>
           </div>
         </div>

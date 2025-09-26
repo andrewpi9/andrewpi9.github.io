@@ -7,7 +7,7 @@ const About: React.FC = () => {
   const skills: Skill[] = [
     { name: 'Swift', level: 'Intermediate', category: 'Languages' },
     { name: 'Python', level: 'Intermediate', category: 'Languages' },
-    { name: 'React', level: 'Intermediate', category: 'Frontend' },
+    { name: 'React', level: 'Beginner', category: 'Frontend' },
     { name: 'TypeScript', level: 'Beginner', category: 'Languages' },
   ];
 

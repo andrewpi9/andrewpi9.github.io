@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="footer-buttons">
             <Button
               variant="outline"
-              href="https://github.com"
+              href="https://github.com/andrewpi9"
               target="_blank"
               className="footer-button"
             >
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             </Button>
             <Button
               variant="outline"
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/andrewpi/"
               target="_blank"
               className="footer-button"
             >
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             </Button>
             <Button
               variant="outline"
-              href="mailto:your.email@example.com"
+              href="mailto:andrewpi@unc.edu"
               className="footer-button"
             >
               Email
