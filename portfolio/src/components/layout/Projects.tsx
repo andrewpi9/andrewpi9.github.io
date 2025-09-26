@@ -14,6 +14,13 @@ const Projects: React.FC = () => {
       liveUrl: 'https://andrewpi9.github.io/wordle/',
       githubUrl: 'https://github.com/andrewpi9/andrewpi9.github.io/tree/main/wordle',
     },
+    {
+      id: '1',
+      title: 'Spotify iOS App UI',
+      description: 'A native iOS application that replicates the Spotify song player interface with interactive slider controls. Focuses on UI design and user interactions using Swift and UIKit.',
+      technologies: ['Swift', 'UIKit', 'iOS', 'UI Design'],
+      githubUrl: 'https://github.com/andrewpi9/Spotify',
+    },
   ];
 
   return (
