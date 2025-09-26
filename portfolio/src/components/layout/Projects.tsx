@@ -7,28 +7,12 @@ import './Projects.css';
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
-      id: '1',
-      title: 'Personal Portfolio',
-      description: 'A modern, responsive portfolio website built with React and TypeScript. Features smooth animations, mobile-first design, and optimized performance.',
-      technologies: ['React', 'TypeScript', 'CSS3', 'Vite'],
-      liveUrl: '#',
-      githubUrl: '#',
-    },
-    {
-      id: '2',
-      title: 'Todo App',
-      description: 'A feature-rich todo application with local storage, drag-and-drop functionality, and dark mode. Perfect for daily task management.',
-      technologies: ['React', 'JavaScript', 'Local Storage', 'CSS'],
-      liveUrl: '#',
-      githubUrl: '#',
-    },
-    {
-      id: '3',
-      title: 'Weather Dashboard',
-      description: 'A clean weather application that displays current conditions and forecasts. Integrates with external weather API for real-time data.',
-      technologies: ['React', 'API Integration', 'Chart.js', 'Responsive Design'],
-      liveUrl: '#',
-      githubUrl: '#',
+      id: '0',
+      title: 'Wordle Game',
+      description: 'A fully functional Wordle clone with interactive gameplay, word validation, and visual feedback. Built with vanilla JavaScript and modern CSS.',
+      technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM Manipulation'],
+      liveUrl: 'https://andrewpi9.github.io/wordle/',
+      githubUrl: 'https://github.com/andrewpi9/andrewpi9.github.io/tree/main/wordle',
     },
   ];
 
