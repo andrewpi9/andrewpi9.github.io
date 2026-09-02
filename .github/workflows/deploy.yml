@@ -39,10 +39,12 @@ jobs:
           cd portfolio
           npm run build
 
-      - name: Create portfolio structure
+      - name: Assemble site
         run: |
-          mkdir -p _site/portfolio
+          mkdir -p _site/portfolio _site/wordle
+          cp index.html _site/index.html
           cp -r portfolio/dist/* _site/portfolio/
+          cp wordle/index.html wordle/styles.css wordle/script.js _site/wordle/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -53,9 +55,10 @@ jobs:
           path: _site
 
   deploy:
+    if: github.event_name == 'push'
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}portfolio/
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
