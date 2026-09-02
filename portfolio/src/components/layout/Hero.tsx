@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
               CS and Econ at UNC
             </p>
             <p className="hero-description">
-              I'm passionate about creating digital experiences that solve real-world problems.
-              Currently learning modern web technologies and building projects that showcase
-              my growing skills in React, TypeScript, and beyond.
+              I like problems where the hard part is the logic. Most of the work on the SAT tool
+              below was deciding what a missed question is actually worth, since some topics are
+              on every test and others show up once or twice.
             </p>
 
             <div className="hero-actions">

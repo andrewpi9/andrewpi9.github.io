@@ -8,18 +8,19 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: '0',
-      title: 'Wordle Game',
-      description: 'A fully functional Wordle clone with interactive gameplay, word validation, and visual feedback. Built with vanilla JavaScript and modern CSS.',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM Manipulation'],
-      liveUrl: 'https://andrewpi9.github.io/wordle/',
-      githubUrl: 'https://github.com/andrewpi9/andrewpi9.github.io/tree/main/wordle',
+      title: 'SAT StudyPath',
+      description: 'Ranks all 35 SAT skills by how many points a weak one is costing you, weighted by how often that topic shows up on the test. Scores fade the longer you go without practicing, so review climbs the list without me scheduling it.',
+      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'React', 'pytest'],
+      liveUrl: 'https://andrewpi9.github.io/SAT-StudyPath/',
+      githubUrl: 'https://github.com/andrewpi9/SAT-StudyPath',
     },
     {
       id: '1',
-      title: 'Spotify iOS App UI',
-      description: 'A native iOS application that replicates the Spotify song player interface with interactive slider controls. Focuses on UI design and user interactions using Swift and UIKit.',
-      technologies: ['Swift', 'UIKit', 'iOS', 'UI Design'],
-      githubUrl: 'https://github.com/andrewpi9/Spotify',
+      title: 'Wordle Game',
+      description: 'A Wordle clone in plain JavaScript, no framework and no build step. The annoying part was a guess with a repeated letter, where the second one only goes yellow if the answer really has two.',
+      technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM Manipulation'],
+      liveUrl: 'https://andrewpi9.github.io/wordle/',
+      githubUrl: 'https://github.com/andrewpi9/andrewpi9.github.io/tree/main/wordle',
     },
   ];
 
@@ -28,7 +29,7 @@ const Projects: React.FC = () => {
       <div className="container">
         <h2 className="section-title">My Projects</h2>
         <p className="section-subtitle">
-          Here are some projects I've been working on to showcase my growing skills
+          Two things I've built, and the parts that were actually hard
         </p>
 
         <div className="projects-grid">

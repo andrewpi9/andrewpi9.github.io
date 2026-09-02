@@ -5,10 +5,16 @@ import './About.css';
 
 const About: React.FC = () => {
   const skills: Skill[] = [
-    { name: 'Swift', level: 'Intermediate', category: 'Languages' },
     { name: 'Python', level: 'Intermediate', category: 'Languages' },
-    { name: 'React', level: 'Beginner', category: 'Frontend' },
-    { name: 'TypeScript', level: 'Beginner', category: 'Languages' },
+    { name: 'TypeScript', level: 'Intermediate', category: 'Languages' },
+    { name: 'Swift', level: 'Intermediate', category: 'Languages' },
+    { name: 'FastAPI', level: 'Intermediate', category: 'Backend' },
+    { name: 'SQLAlchemy', level: 'Intermediate', category: 'Backend' },
+    { name: 'PostgreSQL', level: 'Beginner', category: 'Backend' },
+    { name: 'React', level: 'Intermediate', category: 'Frontend' },
+    { name: 'Tailwind CSS', level: 'Beginner', category: 'Frontend' },
+    { name: 'Git', level: 'Intermediate', category: 'Tools' },
+    { name: 'pytest', level: 'Intermediate', category: 'Tools' },
   ];
 
   const skillCategories = Array.from(new Set(skills.map(skill => skill.category)));
@@ -21,19 +27,22 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate beginner programmer with a love for creating digital solutions
-              that make a difference. My journey into web development started with curiosity
-              about how websites work, and has grown into a dedicated pursuit of mastering
-              modern technologies.
+              I ran an SAT tutoring channel, and students almost never asked me how to solve a problem,
+              they asked what to study next. A checklist only tells you what is left, and a lifetime
+              accuracy number counts the topic you nailed a month ago the same as the one you did
+              yesterday. So I built SAT StudyPath.
             </p>
             <p>
-              I believe in writing clean, maintainable code and continuously learning new
-              technologies. When I'm not coding, you can find me exploring new frameworks,
-              contributing to open source projects, or planning my next coding project.
+              My parents are from Chengdu and talk about it a lot more than they get to go back, so I'm
+              building them an app for it - photos, food, the small things they miss. It is in Swift, and
+              @Binding and view hierarchies still take me a few tries. It's the kind of project that
+              matters beyond the code itself.
             </p>
             <p>
-              I'm excited to bring my fresh perspective and enthusiasm to collaborative
-              projects and am always eager to learn from experienced developers.
+              I go slow when I'm stuck, I work out on paper what the answer should be instead of changing
+              lines to see what happens. SAT StudyPath has 118 tests, 52 on the mastery engine, and I
+              worked those out by hand before I trusted the code. When I'm not coding I play hockey for
+              UNC or volleyball with friends.
             </p>
           </div>
 
