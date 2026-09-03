@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
           <div className="hero-visual">
             <div className="hero-avatar">
               <img
-                src="/portfolio/images/headshot.JPG"
+                src="/images/headshot.JPG"
                 alt="Andrew Pi"
                 className="avatar-image"
               />

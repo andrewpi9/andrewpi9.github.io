@@ -1,21 +1,24 @@
 # andrewpi9.github.io
-A playground for my web development projects.
 
-Everything here is published by [.github/workflows/deploy.yml](.github/workflows/deploy.yml) on
-every push to `main`. The workflow builds the portfolio, assembles `_site` from the root landing
-page plus each project, and deploys that to GitHub Pages. **A project only goes live if the
-assemble step copies it into `_site`.**
+My portfolio, plus the projects it links out to.
+
+[.github/workflows/deploy.yml](.github/workflows/deploy.yml) publishes on every push to `main`. It
+builds the portfolio, assembles `_site`, and deploys that to GitHub Pages. Pages source must stay on
+**GitHub Actions** — on "Deploy from a branch" the built-in Jekyll builder publishes the raw repo
+instead and the site breaks.
 
 | Path | Source |
 | --- | --- |
-| [andrewpi9.github.io](https://andrewpi9.github.io/) | `index.html` |
-| [andrewpi9.github.io/portfolio](https://andrewpi9.github.io/portfolio/) | `portfolio/` (built) |
+| [andrewpi9.github.io](https://andrewpi9.github.io/) | `portfolio/` (built, served at the root) |
 | [andrewpi9.github.io/wordle](https://andrewpi9.github.io/wordle/) | `wordle/` (static) |
+| `/portfolio/` | redirect to `/`, kept so old links still work |
 
-## Personal Portfolio
+SAT StudyPath lives in its own repo, [andrewpi9/SAT-StudyPath](https://github.com/andrewpi9/SAT-StudyPath),
+and deploys itself to [andrewpi9.github.io/SAT-StudyPath](https://andrewpi9.github.io/SAT-StudyPath/).
 
-React + Vite + TypeScript. Vite is configured with `base: '/portfolio/'`, so it only renders
-correctly when served from that subpath.
+## Portfolio
+
+React + Vite + TypeScript, served at the root, so `base` is `/`.
 
 ```
 cd portfolio
@@ -25,7 +28,7 @@ npm run dev
 
 ## Wordle
 
-Static HTML, CSS, and JavaScript with no build step. All its paths are relative, so it runs from
-any subpath.
+Static HTML, CSS, and JavaScript with no build step. All its paths are relative, so it runs from any
+subpath.
 
 Right click on `wordle/index.html` and open with Live Server (command L O).

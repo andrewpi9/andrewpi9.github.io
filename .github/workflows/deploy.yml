@@ -41,10 +41,12 @@ jobs:
 
       - name: Assemble site
         run: |
-          mkdir -p _site/portfolio _site/wordle
-          cp index.html _site/index.html
-          cp -r portfolio/dist/* _site/portfolio/
+          # the portfolio IS the site, served at the root
+          mkdir -p _site/wordle _site/portfolio
+          cp -r portfolio/dist/* _site/
           cp wordle/index.html wordle/styles.css wordle/script.js _site/wordle/
+          # keep old /portfolio/ links working
+          printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/"><link rel="canonical" href="/"><title>Andrew Pi</title>' > _site/portfolio/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
