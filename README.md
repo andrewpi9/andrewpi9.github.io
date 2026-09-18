@@ -13,8 +13,12 @@ instead and the site breaks.
 | [andrewpi9.github.io/wordle](https://andrewpi9.github.io/wordle/) | `wordle/` (static) |
 | `/portfolio/` | redirect to `/`, kept so old links still work |
 
-SAT StudyPath lives in its own repo, [andrewpi9/SAT-StudyPath](https://github.com/andrewpi9/SAT-StudyPath),
-and deploys itself to [andrewpi9.github.io/SAT-StudyPath](https://andrewpi9.github.io/SAT-StudyPath/).
+Two projects live in their own repos and deploy themselves:
+
+| Project | Repo | Live |
+| --- | --- | --- |
+| Radiant Ranked | [andrewpi9/radiant-ranked](https://github.com/andrewpi9/radiant-ranked) | [andrewpi9.github.io/radiant-ranked](https://andrewpi9.github.io/radiant-ranked/) |
+| SAT StudyPath | [andrewpi9/SAT-StudyPath](https://github.com/andrewpi9/SAT-StudyPath) | [andrewpi9.github.io/SAT-StudyPath](https://andrewpi9.github.io/SAT-StudyPath/) |
 
 ## Portfolio
 

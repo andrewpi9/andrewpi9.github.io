@@ -8,6 +8,14 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: '0',
+      title: 'Radiant Ranked',
+      description: 'Ranks every rated professor at UNC and Duke into VALORANT\'s 25 divisions by simulating an Elo tournament over RateMyProfessors data. Ratings are distributions, not averages, so a 5.0 from five reviews loses to a 4.7 from two hundred.',
+      technologies: ['Python', 'GraphQL', 'Monte Carlo', 'pytest'],
+      liveUrl: 'https://andrewpi9.github.io/radiant-ranked/',
+      githubUrl: 'https://github.com/andrewpi9/radiant-ranked',
+    },
+    {
+      id: '1',
       title: 'SAT StudyPath',
       description: 'Ranks all 35 SAT skills by how many points a weak one is costing you, weighted by how often that topic shows up on the test. Scores fade the longer you go without practicing, so review climbs the list without me scheduling it.',
       technologies: ['Python', 'FastAPI', 'PostgreSQL', 'React', 'pytest'],
@@ -15,7 +23,7 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/andrewpi9/SAT-StudyPath',
     },
     {
-      id: '1',
+      id: '2',
       title: 'Wordle Game',
       description: 'A Wordle clone in plain JavaScript, no framework and no build step. The annoying part was a guess with a repeated letter, where the second one only goes yellow if the answer really has two.',
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM Manipulation'],
@@ -29,7 +37,7 @@ const Projects: React.FC = () => {
       <div className="container">
         <h2 className="section-title">My Projects</h2>
         <p className="section-subtitle">
-          Two things I've built, and the parts that were actually hard
+          Some things I've built, and the parts that were actually hard
         </p>
 
         <div className="projects-grid">

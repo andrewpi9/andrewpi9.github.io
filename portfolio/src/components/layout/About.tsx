@@ -11,6 +11,7 @@ const About: React.FC = () => {
     { name: 'FastAPI', level: 'Intermediate', category: 'Backend' },
     { name: 'SQLAlchemy', level: 'Intermediate', category: 'Backend' },
     { name: 'PostgreSQL', level: 'Beginner', category: 'Backend' },
+    { name: 'GraphQL', level: 'Intermediate', category: 'Backend' },
     { name: 'React', level: 'Intermediate', category: 'Frontend' },
     { name: 'Tailwind CSS', level: 'Beginner', category: 'Frontend' },
     { name: 'Git', level: 'Intermediate', category: 'Tools' },
