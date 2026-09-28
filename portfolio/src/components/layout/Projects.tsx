@@ -8,6 +8,13 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: '0',
+      title: 'UNC Hockey Fundraiser',
+      description: 'A donation site I built for my club hockey team, with Stripe checkout and a per-player leaderboard so donors can give to someone specific. It has raised over $5,000 toward this season so far.',
+      technologies: ['Next.js', 'React', 'Stripe', 'Vercel'],
+      liveUrl: 'https://hockeyfundraising.vercel.app/c/2026-2027-season-fund',
+    },
+    {
+      id: '1',
       title: 'Radiant Ranked',
       description: 'Ranks every rated professor at UNC and Duke into VALORANT\'s 25 divisions by simulating an Elo tournament over RateMyProfessors data. Ratings are distributions, not averages, so a 5.0 from five reviews loses to a 4.7 from two hundred.',
       technologies: ['Python', 'GraphQL', 'Monte Carlo', 'pytest'],
@@ -15,7 +22,7 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/andrewpi9/radiant-ranked',
     },
     {
-      id: '1',
+      id: '2',
       title: 'SAT StudyPath',
       description: 'Ranks all 35 SAT skills by how many points a weak one is costing you, weighted by how often that topic shows up on the test. Scores fade the longer you go without practicing, so review climbs the list without me scheduling it.',
       technologies: ['Python', 'FastAPI', 'PostgreSQL', 'React', 'pytest'],
@@ -23,7 +30,7 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/andrewpi9/SAT-StudyPath',
     },
     {
-      id: '2',
+      id: '3',
       title: 'Wordle Game',
       description: 'A Wordle clone in plain JavaScript, no framework and no build step. The annoying part was a guess with a repeated letter, where the second one only goes yellow if the answer really has two.',
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM Manipulation'],

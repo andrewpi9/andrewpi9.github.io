@@ -13,6 +13,7 @@ const About: React.FC = () => {
     { name: 'PostgreSQL', level: 'Beginner', category: 'Backend' },
     { name: 'GraphQL', level: 'Intermediate', category: 'Backend' },
     { name: 'React', level: 'Intermediate', category: 'Frontend' },
+    { name: 'Next.js', level: 'Intermediate', category: 'Frontend' },
     { name: 'Tailwind CSS', level: 'Beginner', category: 'Frontend' },
     { name: 'Git', level: 'Intermediate', category: 'Tools' },
     { name: 'pytest', level: 'Intermediate', category: 'Tools' },
