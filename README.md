@@ -13,10 +13,11 @@ instead and the site breaks.
 | [andrewpi9.github.io/wordle](https://andrewpi9.github.io/wordle/) | `wordle/` (static) |
 | `/portfolio/` | redirect to `/`, kept so old links still work |
 
-Two projects live in their own repos and deploy themselves:
+These projects live in their own repos and deploy themselves:
 
 | Project | Repo | Live |
 | --- | --- | --- |
+| UNC Hockey Fundraiser | [andrewpi9/hockeyfundraising](https://github.com/andrewpi9/hockeyfundraising) | [hockeyfundraising.vercel.app](https://hockeyfundraising.vercel.app/) |
 | Radiant Ranked | [andrewpi9/radiant-ranked](https://github.com/andrewpi9/radiant-ranked) | [andrewpi9.github.io/radiant-ranked](https://andrewpi9.github.io/radiant-ranked/) |
 | SAT StudyPath | [andrewpi9/SAT-StudyPath](https://github.com/andrewpi9/SAT-StudyPath) | [andrewpi9.github.io/SAT-StudyPath](https://andrewpi9.github.io/SAT-StudyPath/) |
 

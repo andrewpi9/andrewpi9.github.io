@@ -9,9 +9,10 @@ const Projects: React.FC = () => {
     {
       id: '0',
       title: 'UNC Hockey Fundraiser',
-      description: 'A donation site I built for my club hockey team, with Stripe checkout and a per-player leaderboard so donors can give to someone specific. It has raised over $5,000 toward this season so far.',
-      technologies: ['Next.js', 'React', 'Stripe', 'Vercel'],
+      description: 'A fundraising platform I built for my club hockey team, with a per-player leaderboard so donors can give to someone specific. Money settles straight into the team\'s own Stripe account instead of passing through me. Over $5,000 raised so far.',
+      technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Drizzle'],
       liveUrl: 'https://hockeyfundraising.vercel.app/c/2026-2027-season-fund',
+      githubUrl: 'https://github.com/andrewpi9/hockeyfundraising',
     },
     {
       id: '1',
