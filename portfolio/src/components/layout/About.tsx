@@ -29,19 +29,16 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm into hockey and exercising. I play VALORANT and watch a lot of pro Val and pro
-              hockey. I'm also into philosophy, free will and religion mostly, and I like having
-              those conversations using the Socratic method.
-            </p>
-            <p>
-              Players on my team felt bad spamming their relatives with emails and phone numbers
-              to cover dues. So I built our own thing instead, and now nobody has to feel weird
-              about asking.
+              I play defense for UNC club hockey. It's a club, so UNC doesn't fund it and we pay
+              for our own season - dues are $2,500, or $3,250 if you're new. Guys felt bad spamming
+              their relatives to cover that, so I built our own fundraising site instead. Nobody
+              has to feel weird about asking now.
             </p>
             <p>
               I got a lot of help on the SAT from teachers and mentors, and later I ran a tutoring
               channel of my own. What students asked most was never how to solve a problem, it was
-              what to study next, so I built SAT StudyPath to answer that.
+              what to study next, so I built SAT StudyPath to answer that. I was in their position
+              not long ago and wanted to do the same thing back.
             </p>
           </div>
 
