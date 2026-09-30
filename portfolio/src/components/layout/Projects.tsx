@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
     {
       id: '3',
       title: 'Wordle Game',
-      description: 'A Wordle clone in plain JavaScript, no framework and no build step. The annoying part was a guess with a repeated letter, where the second one only goes yellow if the answer really has two.',
+      description: 'A Wordle clone in plain JavaScript, no framework and no build step.',
       technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM Manipulation'],
       liveUrl: 'https://andrewpi9.github.io/wordle/',
       githubUrl: 'https://github.com/andrewpi9/andrewpi9.github.io/tree/main/wordle',
@@ -45,18 +45,12 @@ const Projects: React.FC = () => {
       <div className="container">
         <h2 className="section-title">My Projects</h2>
         <p className="section-subtitle">
-          Some things I've built, and the parts that were actually hard
+          Some things I've built
         </p>
 
         <div className="projects-grid">
           {projects.map(project => (
             <Card key={project.id} className="project-card" hover>
-              <div className="project-image">
-                <div className="project-placeholder">
-                  <span>{project.title.charAt(0)}</span>
-                </div>
-              </div>
-
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>

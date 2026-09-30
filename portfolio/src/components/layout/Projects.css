@@ -1,63 +1,34 @@
+/* Same ground as the rest of the page. This section used to be white, which cut
+   a bright band across an otherwise dark site. */
 .projects {
-  background-color: white;
+  background-color: var(--color-background);
 }
 
-/* Scoped to .projects: this section sits on a white background, so its heading
-   needs dark text. Left unscoped, these rules also won the cascade in .about
-   (which is --color-surface), rendering that heading invisible. */
 .projects .section-title {
-  text-align: center;
-  margin-bottom: var(--space-16);
-  position: relative;
-  color: var(--color-surface);
+  margin-bottom: var(--space-3);
 }
 
 .projects .section-subtitle {
   text-align: center;
-  color: var(--color-background);
+  color: var(--color-text-light);
   font-size: var(--text-lg);
-  margin-bottom: var(--space-16);
+  margin: 0 auto var(--space-12);
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: var(--space-8);
-  margin-bottom: var(--space-20);
+  /* 380px forces 2 columns inside the 1200px container, so four cards land
+     as a balanced 2x2 instead of a row of three and a lone orphan. */
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: var(--space-6);
+  margin-bottom: var(--space-16);
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
   height: 100%;
-}
-
-.project-image {
-  height: 200px;
-  background: linear-gradient(135deg, var(--color-surface), var(--color-border));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.project-placeholder {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* --color-primary and --color-accent are both #C2EABA, so this fill is flat
-     pale mint. White on it is 1.33:1; the dark background token is 12.8:1. */
-  color: var(--color-background);
-  font-size: var(--text-2xl);
-  font-weight: 700;
 }
 
 .project-content {
@@ -76,8 +47,8 @@
 
 .project-description {
   color: var(--color-text-light);
-  line-height: 1.6;
-  margin-bottom: var(--space-4);
+  line-height: 1.65;
+  margin-bottom: var(--space-5);
   flex: 1;
 }
 
@@ -88,25 +59,28 @@
   margin-bottom: var(--space-6);
 }
 
+/* Tags were --color-surface on a --color-surface card, so only the border
+   showed. Tint them with the accent instead. */
 .tech-tag {
-  background-color: var(--color-surface);
-  color: var(--color-text);
+  background-color: rgba(194, 234, 186, 0.08);
+  color: var(--color-primary);
   padding: var(--space-1) var(--space-3);
   border-radius: var(--radius-full);
   font-size: var(--text-sm);
   font-weight: 500;
-  border: 1px solid var(--color-border);
+  border: 1px solid rgba(194, 234, 186, 0.22);
 }
 
 .project-actions {
   display: flex;
   gap: var(--space-3);
   flex-wrap: wrap;
+  margin-top: auto;
 }
 
 .projects-cta {
   text-align: center;
-  padding: var(--space-16);
+  padding: var(--space-12);
   background-color: var(--color-surface);
   border-radius: var(--radius-xl);
   border: 1px solid var(--color-border);
@@ -121,11 +95,7 @@
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
-    gap: var(--space-6);
-  }
-
-  .project-card {
-    min-width: unset;
+    gap: var(--space-5);
   }
 
   .project-actions {

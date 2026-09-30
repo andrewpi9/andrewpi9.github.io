@@ -76,19 +76,20 @@
   letter-spacing: 0.5px;
 }
 
+/* Were solid pastels, which read as light chips pasted onto dark cards. */
 .skill-level--beginner {
-  background-color: #fef3c7;
-  color: #92400e;
+  background-color: rgb(251 191 36 / 0.12);
+  color: #fcd34d;
 }
 
 .skill-level--intermediate {
-  background-color: #dbeafe;
-  color: #1e40af;
+  background-color: rgb(96 165 250 / 0.12);
+  color: #93c5fd;
 }
 
 .skill-level--advanced {
-  background-color: #d1fae5;
-  color: #065f46;
+  background-color: rgb(52 211 153 / 0.12);
+  color: #6ee7b7;
 }
 
 @media (max-width: 768px) {
