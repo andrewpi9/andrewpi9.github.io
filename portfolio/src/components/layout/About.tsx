@@ -30,9 +30,9 @@ const About: React.FC = () => {
           <div className="about-text">
             <p>
               I play defense for UNC club hockey. It's a club, so UNC doesn't fund it and we pay
-              for our own season - dues are $2,500, or $3,250 if you're new. Guys felt bad spamming
+              for our own season - dues are $2,500, or $3,250 if you're new. Players felt bad spamming
               their relatives to cover that, so I built our own fundraising site instead. Nobody
-              has to feel weird about asking now.
+              feels bad for receiving donations now.
             </p>
             <p>
               I got a lot of help on the SAT from teachers and mentors, and later I ran a tutoring
