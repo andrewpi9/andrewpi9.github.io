@@ -29,22 +29,20 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I ran an SAT tutoring channel, and students almost never asked me how to solve a problem,
-              they asked what to study next. A checklist only tells you what is left, and a lifetime
-              accuracy number counts the topic you nailed a month ago the same as the one you did
-              yesterday. So I built SAT StudyPath.
+              I'm into hockey and exercising. I play VALORANT and watch a lot of pro Val and pro
+              hockey. I'm also into philosophy, free will and religion mostly, and I like having
+              those conversations using the Socratic method.
             </p>
             <p>
-              My parents are from Chengdu and talk about it a lot more than they get to go back, so I'm
-              building them an app for it - photos, food, the small things they miss. It is in Swift, and
-              @Binding and view hierarchies still take me a few tries. It's the kind of project that
-              matters beyond the code itself.
+              Players on my team felt bad spamming their relatives with emails and phone numbers,
+              and the platform we used took 10 to 20 percent of every donation. So I built ours
+              instead. The money goes straight to the team's Stripe account, and nobody has to
+              feel weird about asking.
             </p>
             <p>
-              I go slow when I'm stuck, I work out on paper what the answer should be instead of changing
-              lines to see what happens. SAT StudyPath has 118 tests, 52 on the mastery engine, and I
-              worked those out by hand before I trusted the code. When I'm not coding I play hockey for
-              UNC or volleyball with friends.
+              I got a lot of help on the SAT from teachers and mentors, and later I ran a tutoring
+              channel of my own. What students asked most was never how to solve a problem, it was
+              what to study next, so I built SAT StudyPath to answer that.
             </p>
           </div>
 

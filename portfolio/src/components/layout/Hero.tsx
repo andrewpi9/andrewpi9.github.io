@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
               CS and Econ at UNC
             </p>
             <p className="hero-description">
-              I like problems where the hard part is the logic. Most of the work on the SAT tool
-              below was deciding what a missed question is actually worth, since some topics are
-              on every test and others show up once or twice.
+              Most of what I build is me trying to give back to something that helped me first.
+              Teachers and mentors got me through the SAT, and club hockey has given me a lot,
+              so those are the two things I keep building for.
             </p>
 
             <div className="hero-actions">
