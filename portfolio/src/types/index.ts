@@ -13,9 +13,3 @@ export interface Skill {
   level: 'Beginner' | 'Intermediate' | 'Advanced';
   category: 'Frontend' | 'Backend' | 'Tools' | 'Languages';
 }
-
-export interface ContactForm {
-  name: string;
-  email: string;
-  message: string;
-}
