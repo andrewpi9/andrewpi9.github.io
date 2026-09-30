@@ -34,10 +34,9 @@ const About: React.FC = () => {
               those conversations using the Socratic method.
             </p>
             <p>
-              Players on my team felt bad spamming their relatives with emails and phone numbers,
-              and the platform we used took 10 to 20 percent of every donation. So I built ours
-              instead. The money goes straight to the team's Stripe account, and nobody has to
-              feel weird about asking.
+              Players on my team felt bad spamming their relatives with emails and phone numbers
+              to cover dues. So I built our own thing instead, and now nobody has to feel weird
+              about asking.
             </p>
             <p>
               I got a lot of help on the SAT from teachers and mentors, and later I ran a tutoring

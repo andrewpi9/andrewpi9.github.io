@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
     {
       id: '0',
       title: 'UNC Hockey Fundraiser',
-      description: 'A fundraising platform for my club hockey team, with a per-player leaderboard so donors can give to someone specific. It takes no cut, unlike the 10 to 20 percent we were paying before. Over $5,000 raised so far.',
+      description: 'Built after our captain felt bad that his grandma was getting skimmed by a platform taking 10 to 20 percent of our donations. Ours takes zero, with a per-player leaderboard so donors can give to someone specific. Over $5,000 raised.',
       technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Drizzle'],
       liveUrl: 'https://hockeyfundraising.vercel.app/c/2026-2027-season-fund',
       githubUrl: 'https://github.com/andrewpi9/hockeyfundraising',
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     {
       id: '1',
       title: 'Radiant Ranked',
-      description: 'Ranks every rated professor at UNC and Duke into VALORANT\'s 25 divisions by simulating an Elo tournament over RateMyProfessors data. Ratings are distributions, not averages, so a 5.0 from five reviews loses to a 4.7 from two hundred.',
+      description: 'RateMyProfessors makes you open a tab per professor to compare them, so I put every professor at UNC and Duke on one page ranked with VALORANT tiers. Everyone knows what Gold means. Nobody knows what 4.3 out of 5 means.',
       technologies: ['Python', 'GraphQL', 'Monte Carlo', 'pytest'],
       liveUrl: 'https://andrewpi9.github.io/radiant-ranked/',
       githubUrl: 'https://github.com/andrewpi9/radiant-ranked',
